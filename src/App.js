@@ -14,7 +14,11 @@ const App
    <ThemeProvider theme={theme}>
    
    <div style={{backgroundColor: theme.palette.background.default, color:'white',
-  minHeight: '100vh'}}>
+  minHeight: '10vh',display:"flex",
+  height:"40%",
+  flexDirection: "column",
+  justifyContent: "center",
+  textAlign: "center"}}>
    <Header/>
    <Routes>
     <Route path='/' element={<Homepage/>} exact />    
