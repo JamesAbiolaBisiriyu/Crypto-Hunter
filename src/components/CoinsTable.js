@@ -221,7 +221,7 @@ const CoinsTable = () => {
                                                         >
                                                             {row.symbol}
                                                         </span>
-                                                        <span style={{ color: 'darkgrey' }}>{row.name}</span>
+                                                        <span style={{ color: 'dark-grey' }}>{row.name}</span>
                                                     </div>
                                                 </TableCell>
                                                 <TableCell align="right">
@@ -272,3 +272,4 @@ const CoinsTable = () => {
 };
 
 export default CoinsTable;
+
